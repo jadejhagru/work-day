@@ -11,8 +11,7 @@ window.onload = function(){
     fivePM();
    }
   
-  // WHEN I open the planner
-  // THEN the current day and time is displayed at the top of the calendar
+  // Current date and time
   
   var currentDay = moment().format("dddd LL");
   $("#currentDay").append(currentDay);
@@ -20,10 +19,7 @@ window.onload = function(){
   var currentTime = moment().format("LT");
   $("#currentTime").append(currentTime);
   
-  // WHEN I scroll down
-  // THEN I am presented with timeblocks for standard business hours
-  // WHEN I view the timeblocks for that day
-  // THEN each timeblock is color coded to indicate whether it is in the past (gray), present (red), or future (green)
+ // Time blocks for the days
   
   var now = new Date().getHours();
   
