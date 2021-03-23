@@ -3,7 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
-body,
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: #1f1f1f;
+  background-image: url("../workday/white.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
@@ -19,7 +28,9 @@ p#currentDay.lead {
 }
 .jumbotron {
   text-align: center;
-  background-color: #fff;
+  background-image: url("../workday/white.jfif");
+  background-size: cover;
+  background-repeat: no-repeat;
   border-bottom: 1px solid #1f1f1f;
   border-radius: 0px;
 }
@@ -50,16 +61,16 @@ p#currentDay.lead {
   background-color: #dfe6e9;
 }
 .present {
-  background-color: #ff7675;
+  background-color:plum;
 }
 .future {
-  background-color: #7bed9f;
+  background-color:lightskyblue;
 }
 .saveBtn {
   border-left: 1px solid #1f1f1f;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #74b9ff;
+  background-color:#ff7675;
   color: #fff;
   padding: 20px 40px;
 }

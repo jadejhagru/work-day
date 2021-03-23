@@ -13,78 +13,78 @@ window.onload = function(){
   
   // Current date and time
   
-  var currentDay = moment().format("dddd LL");
+  var currentDay = moment().format("MMMM Do YYYY");
   $("#currentDay").append(currentDay);
   
-  var currentTime = moment().format("LT");
+  var currentTime = moment().format("h:mm:ss a");
   $("#currentTime").append(currentTime);
   
  // Time blocks for the days
   
-  var now = new Date().getHours();
+  var current = new Date().getHours();
   
   function colorCode() {
-    if (now > 9) {
+    if (current > 9) {
       $("#comment9am").addClass("past");
-    } else if (now >= 9 && now < 10) {
+    } else if (current >= 9 && current < 10) {
       $("#comment9am").addClass("present");
-    } else if (now < 9) {
+    } else if (current < 9) {
       $("#comment9am").addClass("future");
     }
-    if (now > 10) {
+    if (current > 10) {
       $("#comment10am").addClass("past");
-    } else if (now >= 10 && now < 11) {
+    } else if (current >= 10 && current < 11) {
       $("#comment10am").addClass("present");
-    } else if (now < 10) {
+    } else if (current < 10) {
       $("#comment10am").addClass("future");
     }
-    if (now > 11) {
+    if (current > 11) {
       $("#comment11am").addClass("past");
-    } else if (now >= 11 && now < 12) {
+    } else if (current >= 11 && current < 12) {
       $("#comment11am").addClass("present");
-    } else if (now < 11) {
+    } else if (current < 11) {
       $("#comment11am").addClass("future");
     }
-    if (now > 12) {
+    if (current > 12) {
       $("#comment12pm").addClass("past");
-    } else if (now >= 12 && now < 13) {
+    } else if (current >= 12 && current < 13) {
       $("#comment12pm").addClass("present");
-    } else if (now < 12) {
+    } else if (current < 12) {
       $("#comment12pm").addClass("future");
     }
-    if (now > 13) {
+    if (current > 13) {
       $("#comment1pm").addClass("past");
-    } else if (now >= 13 && now < 14) {
+    } else if (current >= 13 && current < 14) {
       $("#comment1pm").addClass("present");
-    } else if (now < 13) {
+    } else if (current < 13) {
       $("#comment1pm").addClass("future");
     }
-    if (now > 14) {
+    if (current > 14) {
       $("#comment2pm").addClass("past");
-    } else if (now >= 14 && now < 15) {
+    } else if (current >= 14 && current < 15) {
       $("#comment2pm").addClass("present");
-    } else if (now < 14) {
+    } else if (current < 14) {
       $("#comment2pm").addClass("future");
     }
-    if (now > 15) {
+    if (current > 15) {
       $("#comment3pm").addClass("past");
-    } else if (now >= 15 && now < 16) {
+    } else if (current >= 15 && current < 16) {
       $("#comment3pm").addClass("present");
-    } else if (now < 15) {
+    } else if (current < 15) {
       $("#comment3pm").addClass("future");
     }
-    if (now > 16) {
+    if (current > 16) {
       $("#comment4pm").addClass("past");
-    } else if (now >= 16 && now < 17) {
+    } else if (current >= 16 && current < 17) {
       $("#comment4pm").addClass("present");
-    } else if (now < 16) {
+    } else if (current < 16) {
       $("#comment4pm").addClass("future");
     }
-    if (now > 17) {
+    if (current > 17) {
       $("#comment5pm").addClass("past");
-    } else if (now >= 17 && now < 18) {
+    } else if (current >= 17 && current < 18) {
       $("#comment5pm").addClass("present");
-    } else if (now < 17) {
+    } else if (current < 17) {
       $("#comment5pm").addClass("future");
     }
   }
