@@ -2,7 +2,8 @@ body {
   font-family: 'Mulish', sans-serif;
   font-size: 18px;
   line-height: 1;
-  background-color: #D4CDF4;
+  background-color: white;
+  margin: 8%;
 }
 
 textarea {
@@ -21,7 +22,7 @@ textarea {
   background-position: center;
   color: #685155;
   border-radius: 0;
-  border-bottom: 10px solid #685155;
+  border: 8px solid #685155;
 }
 
 .hdr-bckgrnd {
@@ -32,10 +33,19 @@ textarea {
 }
 
 h1 {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Dancing Script', cursive
+}
+
+.display {
+  font-size: 55px;
 }
 
 #currentDay {
+  font-size: 24px;
+  font-family: 'Dancing Script', cursive;
+}
+
+#currentTime {
   font-size: 24px;
   font-family: 'Dancing Script', cursive;
 }

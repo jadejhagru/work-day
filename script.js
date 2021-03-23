@@ -92,4 +92,5 @@ $(document).ready(function() {
 
   // display current day on page
   $("#currentDay").text(moment().format("dddd, MMMM Do"));
+  $("#currentTime").text(moment().format("h:mm:ss a"));
 });
