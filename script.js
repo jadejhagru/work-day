@@ -10,7 +10,7 @@ $(document).ready(function() {
     var timeAdded = moment().format("h:mm:ss a");
 
 
-    events.push({description: value, time: time, date: dateAdded, time: timeAdded});
+    events.push({description: value, time: time, date: dateAdded});
 
     // save the value in localStorage as time
     localStorage.setItem("events", JSON.stringify(events));
