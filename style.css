@@ -107,6 +107,7 @@ img {
   border-bottom-right-radius: 15px;
   background-color: #7a6f75;
   color: white;
+  justify-content: center;
 }
 
 .saveBtn i:hover {
