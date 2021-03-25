@@ -103,8 +103,8 @@ img {
 
 .saveBtn {
   border-left: 1px solid #ede2c5;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
   background-color: #7a6f75;
   color: white;
 
