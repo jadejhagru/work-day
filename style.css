@@ -10,7 +10,7 @@ textarea {
   background: transparent;
   border: none;
   resize: none;
-  color: #815E5B;
+  color: black;
   border-left: 1px solid #685155;
   padding: 10px;
 }
@@ -107,13 +107,18 @@ img {
   border-bottom-right-radius: 15px;
   background-color: #7a6f75;
   color: white;
-  justify-content: center;
+
 }
 
 .saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+
+footer {
+  text-align: center;
+  padding-top: 20px;
+} 
 
 @media screen and (max-width: 972px) {
  img {
